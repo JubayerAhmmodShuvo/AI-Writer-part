@@ -7,7 +7,7 @@ const Ads = () => {
 
       <section className='' >
         <div className = { styles.container } >
-           <div class={styles.containerr}> <a name="facebook-ads" href="#modal1" data-toggle="modal" data-target="#exampleModal">
+           <div class={styles.containerr}> <a name="facebook-ads" href="#modal1" data-toggle="modal" data-target="#modal1">
                 
                         <div><i class="fab fa-facebook"></i> 
                             
@@ -103,6 +103,458 @@ const Ads = () => {
     </div>
 </section>
 
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="modal" id="modal1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Facebook Search Ad Project</h2>
+                        </div>
+                        <div class="modal-body">
+                            <label>Brand/Product Name</label>
+                              <input class="form-control" type="text"/>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Product description</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                              </div>
+                              <label for="exampleFormControlSelect1">Industry</label>
+                              <select class="form-control form-control sm" id="exampleFormControlSelect1">
+                                <option selected>Choose..</option>
+                                <option>Fashion</option>
+                                <option>Food</option>
+                                <option>Wellness</option>
+                                <option>Technology</option>
+                                <option>Furniture</option>
+                                <option>Creativity</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                            <input class="btn btn-primary"  type="submit" onclick="location.href='facebookads/';" value="Create Project" />
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+         
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="modal" id="modal10">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Twitter Ad Project</h2>
+                        </div>
+                        <div class="modal-body">
+                            <label>Brand/Product Name</label>
+                              <input class="form-control" type="text"/>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Product description</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                              </div>
+                              <label for="exampleFormControlSelect1">Industry</label>
+                              <select class="form-control form-control sm" id="exampleFormControlSelect1">
+                                <option selected>Choose..</option>
+                                <option>Fashion</option>
+                                <option>Food</option>
+                                <option>Wellness</option>
+                                <option>Technology</option>
+                                <option>Furniture</option>
+                                <option>Creativity</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                            <input class="btn btn-primary"  type="submit" onclick="location.href='twitterAds/';" value="Create Project" />
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+         
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="modal" id="modal2">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Facebook Post Project</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">What is your post about?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                              </div>
+                              <label for="exampleFormControlSelect1">Industry</label>
+                              <select class="form-control form-control sm" id="exampleFormControlSelect1">
+                                <option selected>Choose..</option>
+                                <option>Fashion</option>
+                                <option>Food</option>
+                                <option>Wellness</option>
+                                <option>Technology</option>
+                                <option>Furniture</option>
+                                <option>Creativity</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                            <input class="btn btn-primary"  type="submit" onclick="location.href='facebook-post/';" value="Create Project"/>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="modal" id="modal11">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Instagram Caption Project</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">What is your post about?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                              </div>
+                              <label for="exampleFormControlSelect1">Industry</label>
+                              <select class="form-control form-control sm" id="exampleFormControlSelect1">
+                                <option selected>Choose..</option>
+                                <option>Fashion</option>
+                                <option>Food</option>
+                                <option>Wellness</option>
+                                <option>Technology</option>
+                                <option>Furniture</option>
+                                <option>Creativity</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                            <input class="btn btn-primary"  type="submit" onclick="location.href='instagram-caption/';" value="Create Project"/>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="modal" id="modal12">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Linkedin Post Project</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">What is your post about?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                              </div>
+                              <label for="exampleFormControlSelect1">Industry</label>
+                              <select class="form-control form-control sm" id="exampleFormControlSelect1">
+                                <option selected>Choose..</option>
+                                <option>Fashion</option>
+                                <option>Food</option>
+                                <option>Wellness</option>
+                                <option>Technology</option>
+                                <option>Furniture</option>
+                                <option>Creativity</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                            <input class="btn btn-primary"  type="submit" onclick="location.href='Linkedin-post/';" value="Create Project"/>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="modal" id="modal3">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Twitter Project</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">What is your tweet about?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                              </div>
+                              <label for="exampleFormControlSelect1">Industry</label>
+                              <select class="form-control form-control sm" id="exampleFormControlSelect1">
+                                <option selected>Choose..</option>
+                                <option>Fashion</option>
+                                <option>Food</option>
+                                <option>Wellness</option>
+                                <option>Technology</option>
+                                <option>Furniture</option>
+                                <option>Creativity</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                            <input class="btn btn-primary"  type="submit" onclick="location.href='tweet/';" value="Create Project"/>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="modal" id="modal4">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Pinterest Pin Project</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">What is your pin about?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                              </div>
+                              <label for="exampleFormControlSelect1">Industry</label>
+                              <select class="form-control form-control sm" id="exampleFormControlSelect1">
+                                <option selected>Choose..</option>
+                                <option>Fashion</option>
+                                <option>Food</option>
+                                <option>Wellness</option>
+                                <option>Technology</option>
+                                <option>Furniture</option>
+                                <option>Creativity</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                            <input class="btn btn-primary"  type="submit" onclick="location.href='Pinterest-pin/';" value="Create Project"/>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="modal" id="modal5">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Youtube Description Project</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">What is your video about?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                              </div>
+                              <label for="exampleFormControlSelect1">Industry</label>
+                              <select class="form-control form-control sm" id="exampleFormControlSelect1">
+                                <option selected>Choose..</option>
+                                <option>Fashion</option>
+                                <option>Food</option>
+                                <option>Wellness</option>
+                                <option>Technology</option>
+                                <option>Furniture</option>
+                                <option>Creativity</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                            <input class="btn btn-primary"  type="submit" onclick="location.href='Youtube-description/';" value="Create Project"/>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="modal" id="modal6">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Cold Email Project</h2>
+                        </div>
+                        <div class="modal-body">
+                            <label>Brand/Product Name</label>
+                              <input class="form-control" type="text"/>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Product description</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                              </div>
+                              <label for="exampleFormControlSelect1">Industry</label>
+                              <select class="form-control form-control sm" id="exampleFormControlSelect1">
+                                <option selected>Choose..</option>
+                                <option>Fashion</option>
+                                <option>Food</option>
+                                <option>Wellness</option>
+                                <option>Technology</option>
+                                <option>Furniture</option>
+                                <option>Creativity</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                            <input class="btn btn-primary"  type="submit" onclick="location.href='cold-email/';" value="Create Project"/>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    
+         
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="modal" id="modal7">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Promotional Email Project</h2>
+                        </div>
+                        <div class="modal-body">
+                            <label>Why are you sending this email?</label>
+                              <input class="form-control" type="text"/>
+                            <label>Brand/Product Name</label>
+                              <input class="form-control" type="text"/>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Product description</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                              </div>
+                              <label for="exampleFormControlSelect1">Industry</label>
+                              <select class="form-control form-control sm" id="exampleFormControlSelect1">
+                                <option selected>Choose..</option>
+                                <option>Fashion</option>
+                                <option>Food</option>
+                                <option>Wellness</option>
+                                <option>Technology</option>
+                                <option>Furniture</option>
+                                <option>Creativity</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                            <input class="btn btn-primary"  type="submit" onclick="location.href='promotional-email/';" value="Create Project" />
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+         
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="modal" id="modal8">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Promotional SMS Project</h2>
+                        </div>
+                        <div class="modal-body">
+                            <label>Brand/Product Name</label>
+                              <input class="form-control" type="text"/>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Product description</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                              </div>
+                              <label for="exampleFormControlSelect1">Industry</label>
+                              <select class="form-control form-control sm" id="exampleFormControlSelect1">
+                                <option selected>Choose..</option>
+                                <option>Fashion</option>
+                                <option>Food</option>
+                                <option>Wellness</option>
+                                <option>Technology</option>
+                                <option>Furniture</option>
+                                <option>Creativity</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                            <input class="btn btn-primary"  type="submit" onclick="location.href='promotional-sms/';" value="Create Project"/>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+         
+
+        </div>
+    </div>
+    </div>
+
 
 <div class="container">
     <div class="row">
@@ -132,7 +584,7 @@ const Ads = () => {
                               </select>
                         </div>
                         <div class="modal-footer">
-                            <input class="btn btn-default" data-dismiss="modal" value="Cancel" />
+                            <input class="btn btn-default" data-dismiss="modal" value="Cancel"/>
                             <input class="btn btn-primary"  type="submit" onclick="location.href='googleads/';" value="Create Project" />
                             
 
@@ -146,12 +598,9 @@ const Ads = () => {
         </div>
     </div>
 </div>
-
-          
 </div>
 
 
-       
     
   );
 };
