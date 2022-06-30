@@ -1,6 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './Ads.module.css';
+import {
+    Link,useNavigate
+} from 'react-router-dom';
 const Ads = () => {
+    const navigate = useNavigate();
+    const TwitterAds = () => {
+navigate('/twitterads');
+        window.location.reload(true);
+    }
+
   return (
 <>
     <div className="mt-5" >
@@ -221,8 +230,8 @@ const Ads = () => {
                         </div>
                         <div class="modal-footer">
                             <input class="btn btn-danger w-25" data-dismiss="modal" value="Cancel"/>
-                            <input class="btn btn-primary"  type="submit" onclick="location.href='twitterAds/';" value="Create Project" />
-                            
+                            <input class="btn btn-primary"  type="submit" onClick={TwitterAds} value="Create Project" />
+                                                      
 
                         </div>
                     </div>
