@@ -4,6 +4,7 @@ import {
     Link,useNavigate
 } from 'react-router-dom';
 const Ads = () => {
+    
     const navigate = useNavigate();
     const TwitterAds = () => {
 navigate('/twitterads');
