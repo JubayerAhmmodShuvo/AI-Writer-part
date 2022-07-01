@@ -27,9 +27,15 @@ const TwitterAds = () => {
     </Nav>
     </Container>
   </Navbar>
+  <div id="output" className={styles.test}  >
+            <p id="content1"></p>
+            <input name="mytext[]"  style={{width:"40vw" , height:"100px"}}/>
+           <hr/> <input  name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
+            <hr/><input name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
 
+        </div>
       <div className="row">
-         <div className="col-1">
+         <div className="col-2">
         <div className={ styles.sidebar} > 
 
 
@@ -42,13 +48,7 @@ const TwitterAds = () => {
          
         </ul>
 
-        <div id="output" className={styles.test}  >
-            <p id="content1"></p>
-            <input name="mytext[]"  style={{width:"40vw" , height:"100px"}}/>
-           <hr/> <input  name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
-            <hr/><input name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
 
-        </div>
       </nav>
     </div>
     <div className={styles.v1}></div>
@@ -59,6 +59,7 @@ const TwitterAds = () => {
         <Outlet />
       </div>
      </div>
+
 
 
 
