@@ -1,17 +1,62 @@
-.sidebar{
-  height: 100vh;
-  width: 8vw;
-  background-color: white;
-}
-.sidebar ul{
-   list-style: none;
+.sidebar {
+    height: 100vh;
+    width: 50vw;
+    background-color: white;
 }
 
+.sidebar ul {
+    list-style: none;
+}
 
-.sidebar a{
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-  
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
 
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav ul {
+    list-style: none;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+.myBorder {
+    border-bottom: 1px solid gray;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.linkText {
+    color: black;
+}
+
+.linkText1 {
+    color: red;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 100%;
+    position: absolute;
+    left: 37%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.test {
+    top: 20%;
+    position: fixed;
+    right: 60px;
+    overflow: hidden;
 }
