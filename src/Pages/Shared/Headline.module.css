@@ -1,0 +1,22 @@
+.btn {
+    border-color: #ddd;
+    outline: none;
+    padding: 10px 12px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.btn1 {
+    border-color: #ddd;
+    outline: none;
+    padding: 10px 12px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
