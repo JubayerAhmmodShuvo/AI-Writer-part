@@ -9,6 +9,7 @@ import Save from './Pages/Shared/Save';
 import Primary from './Pages/Shared/Primary';
 import Headline from './Pages/Shared/Headline';
 
+
 function App() {
   return (
     <div  >
@@ -18,10 +19,14 @@ function App() {
       <Route path='/ads' element={<Ads />} ></Route>
         <Route path='twitterads' element={<TwitterAds />} >
           <Route path="save" element={<Save />}/>
-          <Route path='primary' element={<Primary />}/>
+          <Route index element={<Primary />}/>
+          <Route path="primary" element={<Primary />}/>
           <Route path="headline" element={<Headline />}/>
-
-      </Route>
+         
+          
+        </Route>
+      
+      
       </Routes>
     </div>
   );
