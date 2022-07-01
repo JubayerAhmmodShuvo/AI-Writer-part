@@ -55,8 +55,6 @@
 }
 
 .test {
-    top: 20%;
-    position: fixed;
-    right: 60px;
-    overflow: hidden;
+ float: right;
+    padding-right: 15px;
 }
