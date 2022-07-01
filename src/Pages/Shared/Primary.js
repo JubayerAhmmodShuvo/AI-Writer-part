@@ -17,7 +17,7 @@ const Primary = () => {
   <>
        < div className={ styles.middlebar} >
        
-             <nav>
+             < nav className = "mb-4" >
      
               < ul className='d-flex justify-content-between px-3 ' >
                 <button className="btn btn-outline-secondary mt-4 px-3 py-2 " onClick={()=>setActive("first")} >Primary </button>
