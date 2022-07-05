@@ -29,12 +29,14 @@ const TwitterAds = () => {
   </Navbar> */}
   <div id="output" className={styles.test}  >
             <p id="content1"></p>
-            <button id="list" className="btn  btn-primary" onclick="#">List</button> <nbsp/>
-            <button id="whiteboard" className="btn  btn-secondary" onclick="#">Whiteboard</button> <br /><br/>
-
-            <input name="mytext[]"  style={{width:"40vw" , height:"100px"}}/>
-           <hr/> <input  name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
-            <hr/><input name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
+            <div style={{paddingRight:'355px'}}>
+            <button id="list" className="btn  btn-primary" onClick={window['list']} >List</button> <nbsp/>
+            <button id="whiteboard" className="btn  btn-secondary" onClick={window['whiteboard']}>Whiteboard</button> <br /><br/>
+            </div>
+            <div id="summernote" ></div>
+             {/* <input id="one" name="mytext[]"  style={{width:"40vw" , height:"100px"}}/>
+           <hr/> <input id="two" name="mytext[]" style={{width:"40vw" , height:"100px"}}/> 
+            <hr/><input id="three" name="mytext[]" style={{width:"40vw" , height:"100px"}}/>   */}
 
         </div>
       <div className="row">
