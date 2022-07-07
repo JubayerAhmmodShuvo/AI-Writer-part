@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from "./Headline.module.css";
+import HeadlineRewrite from './HeadlineRewrite';
 import PowerMode from './PowerMode';
 import ReWrite from './ReWrite';
 import Templates from './Templates';
@@ -25,7 +26,7 @@ const Headline = () => {
         </nav>
           <div className="">
               {active=== "first" && <Templates />}
-            {active=== "second" && <ReWrite />}
+            {active=== "second" && <HeadlineRewrite />}
             {active=== "third" && <PowerMode />}
             
           </div>

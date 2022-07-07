@@ -7,11 +7,7 @@ import {
 } from "react-router-dom";
 import styles from './TwitterAds.module.css';
 
-import{
-  Navbar,
-  Nav,
-  Container,
-} from "react-bootstrap";
+
 
 const TwitterAds = () => {
  
@@ -27,18 +23,9 @@ const TwitterAds = () => {
     </Nav>
     </Container>
   </Navbar> */}
-  <div id="output" className={styles.test}  >
-            <p id="content1"></p>
-            <button id="list" className="btn  btn-primary" onclick="#">List</button> <nbsp/>
-            <button id="whiteboard" className="btn  btn-secondary" onclick="#">Whiteboard</button> <br /><br/>
-
-            <input name="mytext[]"  style={{width:"40vw" , height:"100px"}}/>
-           <hr/> <input  name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
-            <hr/><input name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
-
-        </div>
+ 
       <div className="row">
-         <div className="col-3">
+         <div className="col-1">
         <div className={ styles.sidebar} > 
 
 
@@ -59,8 +46,20 @@ const TwitterAds = () => {
 
 
       </div>
-      <div className="col-6">
+      <div className="col-4">
         <Outlet />
+      </div>
+      <div className="col-7">
+         <div id="output" className={styles.test}  >
+            <p id="content1"></p>
+            <button id="list" className="btn  btn-primary" onclick="#">List</button> <nbsp/>
+            <button id="whiteboard" className="btn  btn-secondary" onclick="#">Whiteboard</button> <br /><br/>
+
+            <input name="mytext[]"  style={{width:"40vw" , height:"100px"}}/>
+           <hr/> <input  name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
+            <hr/><input name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
+
+        </div>
       </div>
      </div>
 
