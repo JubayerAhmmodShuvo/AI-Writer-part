@@ -23,7 +23,17 @@ const TwitterAds = () => {
     </Nav>
     </Container>
   </Navbar> */}
+
  
+
+  <div id="output" className={styles.test}  >
+         
+             {/* <input id="one" name="mytext[]"  style={{width:"40vw" , height:"100px"}}/>
+           <hr/> <input id="two" name="mytext[]" style={{width:"40vw" , height:"100px"}}/> 
+            <hr/><input id="three" name="mytext[]" style={{width:"40vw" , height:"100px"}}/>   */}
+
+        </div>
+
       <div className="row">
          <div className="col-1">
         <div className={ styles.sidebar} > 
