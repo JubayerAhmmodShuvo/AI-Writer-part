@@ -7,9 +7,9 @@ const Ads = () => {
     
     const navigate = useNavigate();
     const TwitterAds = () => {
-navigate('/twitterads');
+        navigate('/twitterads');
         window.location.reload(true);
-    }
+    };
 
   return (
 <>

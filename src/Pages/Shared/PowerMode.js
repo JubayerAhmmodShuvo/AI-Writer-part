@@ -3,11 +3,6 @@ import styles from './Primary.module.css';
 
 const PowerMode = () => {
   return (
-
-    <div>
-     
-     
-
     <div class="container" id="display1">
     <p >Example Sets:</p>
 
@@ -67,8 +62,6 @@ const PowerMode = () => {
     </div>
 </div>
 
-
-       </div>
        </div>
   );
 };

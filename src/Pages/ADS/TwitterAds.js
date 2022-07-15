@@ -1,19 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import {
   NavLink,
   Link,
-  Outlet
+  Outlet,
+  useNavigate
 } from "react-router-dom";
 import styles from './TwitterAds.module.css';
 
 
+import Primary from '../Shared/Primary';
+import Lists from '../Shared/Lists';
+import WhiteBoard from '../Shared/WhiteBoard';
 
 const TwitterAds = () => {
- 
+  const [active, setActive] = useState("");
+  const navigate = useNavigate();
+ // const [show,setShow]=useState(true);
+  // const List = () => {
+  //   isHidden: true;
+  // };
 
   return (
     <>
+
     {/* <Navbar bg="light" variant="dark">
     <Container>
     <Nav className="me-auto">
@@ -24,15 +34,6 @@ const TwitterAds = () => {
     </Container>
   </Navbar> */}
 
- 
-
-  <div id="output" className={styles.test}  >
-         
-             {/* <input id="one" name="mytext[]"  style={{width:"40vw" , height:"100px"}}/>
-           <hr/> <input id="two" name="mytext[]" style={{width:"40vw" , height:"100px"}}/> 
-            <hr/><input id="three" name="mytext[]" style={{width:"40vw" , height:"100px"}}/>   */}
-
-        </div>
 
       <div className="row">
          <div className="col-1">
@@ -59,20 +60,30 @@ const TwitterAds = () => {
       <div className="col-4">
         <Outlet />
       </div>
-      <div className="col-7">
-         <div id="output" className={styles.test}  >
-            <p id="content1"></p>
-            <button id="list" className="btn  btn-primary" onclick="#">List</button> <nbsp/>
-            <button id="whiteboard" className="btn  btn-secondary" onclick="#">Whiteboard</button> <br /><br/>
+  <div className="col-6">
+         
+              < ul className='d-flex   px-4 ' >
+                <button  className = "btn me-3 btn-outline-primary mt-4 px-3 py-2" onClick = { () => setActive("second")} > List</button>
+                <button id='whiteboard'    className = "btn btn-outline-primary mt-4 px-3 py-2" onClick = {() => setActive("third")}  > WhiteBoard </button>
+          {/* < li className = 'mt-4' > <NavLink className={({isActive}) => isActive ? 'text-white bg-primary p-2 rounded':'text-black' } to = "/twitterads/primary/tada" > Templates </NavLink></li >
+          < li className = 'mt-4' > <NavLink className={({isActive}) => isActive ? 'text-white bg-primary p-2 rounded':'text-danger' }   to = "/twitterads" > Rewrite </NavLink></li >
+          < li className = 'mt-4' > <NavLink className={({isActive}) => isActive ? 'text-white bg-primary p-2 rounded':'text-black' }  to = "/twitterads/headline" > PowerMode </NavLink></li >
+          */}
+          </ul>
+           <div className="">
+             
+            {active=== "second" && <Lists />}
+            {active=== "third" && <WhiteBoard  />}
 
-            <input name="mytext[]"  style={{width:"40vw" , height:"100px"}}/>
-           <hr/> <input  name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
-            <hr/><input name="mytext[]" style={{width:"40vw" , height:"100px"}}/>
-
-        </div>
+          </div>
       </div>
-     </div>
-
+      
+      
+      </div>
+      
+    
+     
+ 
 
 
 
