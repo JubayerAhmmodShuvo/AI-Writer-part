@@ -1,0 +1,11 @@
+.middlebar {
+    background-color: aliceblue;
+    width: 35vw;
+    height: 800px;
+    padding: 0;
+}
+
+.test {
+    float: right;
+    padding-right: 15px;
+}

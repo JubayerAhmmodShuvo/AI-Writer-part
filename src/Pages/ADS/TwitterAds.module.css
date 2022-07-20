@@ -1,6 +1,6 @@
 .sidebar {
     height: 100%;
-   width: 165px;
+    width: 350px;
     background-color: white;
 }
 
@@ -45,4 +45,7 @@
     color: red;
 }
 
-
+.test {
+    float: right;
+    padding-right: 15px;
+}
