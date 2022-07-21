@@ -8,6 +8,8 @@ import TwitterAds from './Pages/ADS/TwitterAds';
 import Save from './Pages/Shared/Save';
 import Primary from './Pages/Shared/Primary';
 import Headline from './Pages/Shared/Headline';
+import Blog from './Pages/Blog/Blog';
+import Project from './Pages/Blog/Project';
 
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
       <AiWriter />
       < Routes>
       <Route path='/home' element={<Home />} ></Route>
+      <Route path='/blog' element={<Blog />} ></Route>
       <Route path='/ads' element={<Ads />} ></Route>
+      <Route path='/project' element={<Project />} ></Route>
         <Route path='twitterads' element={<TwitterAds />} >
           <Route path="save" element={<Save />}/>
           <Route index element={<Primary />}/>
