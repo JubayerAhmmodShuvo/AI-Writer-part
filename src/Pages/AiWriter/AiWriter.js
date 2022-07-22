@@ -6,10 +6,11 @@ const AiWriter = () => {
       <Link to="home" class="btn btn-primary  py-3 ">
         Home
       </Link>
-<br/><br/>
+      <Link to="blog" class="btn btn-primary  py-3 ">
+        Blog
+      </Link>
       <Link to="editor" class="btn btn-primary py-3">
-        {" "}
-        Editor{" "}
+        Editor
       </Link>
     </div>
   );
