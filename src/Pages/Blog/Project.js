@@ -149,7 +149,7 @@ accurate copy variations. Your description should be at least 5 words.</p>
             </h2>
             <div className="d-flex justify-content-between mx-4" >
               <p>Setup is Completed</p>
-              <button className="btn btn-outline-primary" >Generate Again</button>
+              <button className="btn btn-outline-primary" >Continue to editor</button>
               
 </div>
 </div>
