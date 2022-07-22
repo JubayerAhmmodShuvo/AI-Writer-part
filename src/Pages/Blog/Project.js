@@ -108,6 +108,51 @@ accurate copy variations. Your description should be at least 5 words.</p>
               </div>
     </div>
   </div>
+          <hr />
+            <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
+        Intro Paragraph
+      </button>
+    </h2>
+            <div className = "d-flex justify-content-between mx-4" >
+              <p>Generate an intro paragraph or write your own.</p>
+              <button className="btn btn-outline-primary" >Generate More</button>
+   </div>
+    <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingfour">
+      <div class="accordion-body">
+       <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+  <label class="form-check-label" for="flexRadioDefault1">
+  We all know that we should get at least eight hours of sleep every night, but many of us aren’t getting that much. Whether it’s because of work, family life, or just the ability to stay awake, many of us are in need of some help in the sleeping department. Fortunately, if you struggle with getting to sleep, this list of mind-boggling benefits of sleeping less will help you decide if cutting back on sleep might be something worth trying out! Plus, we have resources to help you improve your sleep in the meantime!
+  </label>
+                </div>
+                <hr />
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+  <label class="form-check-label" for="flexRadioDefault2">
+   We all know that we should get at least eight hours of sleep every night, but many of us aren’t getting that much. Whether it’s because of work, family life, or just the ability to stay awake, many of us are in need of some help in the sleeping department. Fortunately, if you struggle with getting to sleep, this list of mind-boggling benefits of sleeping less will help you decide if cutting back on sleep might be something worth trying out! Plus, we have resources to help you improve your sleep in the meantime!
+  </label>
+                </div>
+                <hr />
+                <a>Write Your Own Paragraph Instead</a>
+                 <input type="text" class="form-control" aria-label="Text input with radio button"/>
+      </div>
+    </div>
+          </div>
+          <hr />
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapsefive">
+                Complete The stpes
+              </button>
+            </h2>
+            <div className="d-flex justify-content-between mx-4" >
+              <p>Setup is Completed</p>
+              <button className="btn btn-outline-primary" >Generate Again</button>
+              
+</div>
+</div>
 </div>
      </div>
       </div>
