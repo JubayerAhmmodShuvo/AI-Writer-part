@@ -15,6 +15,43 @@ const Ads = () => {
     navigate("/googleads");
     window.location.reload(true);
   };
+  const FacebookPost = () => {
+    navigate("/facebookpost");
+    window.location.reload(true);
+  };
+  const InstagramCaption = () => {
+    navigate("/instagramcaption");
+    window.location.reload(true);
+  };
+  const LinkedinPost = () => {
+    navigate("/linkedinpost");
+    window.location.reload(true);
+  };
+  const Tweet = () => {
+    navigate('/tweet');
+      window.location.reload(true);
+}
+const PrinterestPin = () => {
+    navigate('/printerestPin');
+    window.location.reload(true);
+ }
+const YoutubeDescription = () => {
+    navigate('/youtubeDescription');
+    window.location.reload(true);
+ }
+const ColdEmail = () => {
+    navigate('/coldEmail');
+    window.location.reload(true);
+ }
+const PromotionalEmail = () => {
+    navigate('/promotionalEmail');
+    window.location.reload(true);
+ }
+const PromotionalSms = () => {
+    navigate('/promotionalSms');
+    window.location.reload(true);
+ }
+
 
   return (
     <>
@@ -454,7 +491,7 @@ const Ads = () => {
                       <input
                         class="btn btn-primary"
                         type="submit"
-                        onclick="location.href='facebook-post/';"
+                        onClick={FacebookPost}
                         value="Create Project"
                       />
                     </div>
@@ -508,7 +545,7 @@ const Ads = () => {
                       <input
                         class="btn btn-primary"
                         type="submit"
-                        onclick="location.href='instagram-caption/';"
+                        onClick={InstagramCaption}
                         value="Create Project"
                       />
                     </div>
@@ -562,7 +599,7 @@ const Ads = () => {
                       <input
                         class="btn btn-primary"
                         type="submit"
-                        onclick="location.href='Linkedin-post/';"
+                        onClick={LinkedinPost}
                         value="Create Project"
                       />
                     </div>
@@ -616,7 +653,7 @@ const Ads = () => {
                       <input
                         class="btn btn-primary"
                         type="submit"
-                        onclick="location.href='tweet/';"
+                        onClick={Tweet}
                         value="Create Project"
                       />
                     </div>
@@ -670,7 +707,7 @@ const Ads = () => {
                       <input
                         class="btn btn-primary"
                         type="submit"
-                        onclick="location.href='Pinterest-pin/';"
+                        onClick={PrinterestPin}
                         value="Create Project"
                       />
                     </div>
@@ -724,7 +761,7 @@ const Ads = () => {
                       <input
                         class="btn btn-primary"
                         type="submit"
-                        onclick="location.href='Youtube-description/';"
+                        onClick={YoutubeDescription}
                         value="Create Project"
                       />
                     </div>
@@ -780,7 +817,7 @@ const Ads = () => {
                       <input
                         class="btn btn-primary"
                         type="submit"
-                        onclick="location.href='cold-email/';"
+                        onClick={ColdEmail}
                         value="Create Project"
                       />
                     </div>
@@ -838,7 +875,7 @@ const Ads = () => {
                       <input
                         class="btn btn-primary"
                         type="submit"
-                        onclick="location.href='promotional-email/';"
+                        onClick={PromotionalEmail}
                         value="Create Project"
                       />
                     </div>
@@ -894,7 +931,7 @@ const Ads = () => {
                       <input
                         class="btn btn-primary"
                         type="submit"
-                        onclick="location.href='promotional-sms/';"
+                        onClick={PromotionalSms}
                         value="Create Project"
                       />
                     </div>
