@@ -78,7 +78,7 @@ function App() {
           <Route path="save" element={<Save />}/>
           <Route index element={<Primary />}/>
           <Route path="primary" element={<Primary />}/>
-          <Route path="headline" element={<Headline />}/>
+          
 
         </Route>
         
@@ -89,7 +89,7 @@ function App() {
           <Route path="save" element={<Save />}/>
           <Route index element={<Primary />}/>
           <Route path="primary" element={<Primary />}/>
-          <Route path="headline" element={<Headline />}/>
+          
 
         </Route>
         <Route  path = 'youtubeDescription'
@@ -129,7 +129,7 @@ function App() {
           <Route path="save" element={<Save />}/>
           <Route index element={<Primary />}/>
           <Route path="primary" element={<Primary />}/>
-          <Route path="headline" element={<Headline />}/>
+         
 
         </Route>
       

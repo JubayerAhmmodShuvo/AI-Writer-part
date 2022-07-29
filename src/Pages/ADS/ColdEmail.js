@@ -27,7 +27,7 @@ const ColdEmail = () => {
 
 
       <div className="row">
-         <div className="col-1">
+         <div className="col-2">
         <div className={ styles.sidebar} > 
 
 
@@ -36,7 +36,7 @@ const ColdEmail = () => {
         <ul className = 'py-5' >
         < li className = 'py-4' > <NavLink className={({isActive}) => isActive ? 'text-white  bg-primary p-2 rounded':'text-black' } to = "/coldEmail/save" > Saved </NavLink></li >
           < li className = 'py-4' > <NavLink className={({isActive}) => isActive ? 'text-white  bg-primary p-2 rounded':'text-black' }   to = "/coldEmail/primary" > Primary Text</NavLink></li >
-          < li className = 'py-4' > <NavLink className={({isActive}) => isActive ? 'text-white  bg-primary p-2 rounded':'text-black' }  to = "/coldEmail/headline" > Headline </NavLink></li >
+          < li className = 'py-4' > <NavLink className={({isActive}) => isActive ? 'text-white  bg-primary p-2 rounded':'text-black' }  to = "/coldEmail/headline" > Subject Line </NavLink></li >
 
        
         </ul>

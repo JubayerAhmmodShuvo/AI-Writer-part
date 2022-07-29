@@ -27,7 +27,7 @@ const PrinterestPin = () =>{
 
 
       <div className="row">
-         <div className="col-1">
+         <div className="col-2">
         <div className={ styles.sidebar} > 
 
 
@@ -36,7 +36,6 @@ const PrinterestPin = () =>{
         <ul className = 'py-5' >
         < li className = 'py-4' > <NavLink className={({isActive}) => isActive ? 'text-white  bg-primary p-2 rounded':'text-black' } to = "/printerestPin/save" > Saved </NavLink></li >
           < li className = 'py-4' > <NavLink className={({isActive}) => isActive ? 'text-white  bg-primary p-2 rounded':'text-black' }   to = "/printerestPin/primary" > Primary Text</NavLink></li >
-          < li className = 'py-4' > <NavLink className={({isActive}) => isActive ? 'text-white  bg-primary p-2 rounded':'text-black' }  to = "/printerestPin/headline" > Headline </NavLink></li >
 
        
         </ul>
